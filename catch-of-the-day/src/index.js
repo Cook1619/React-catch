@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom'
-import App from '../src/components/App'
+import Router from '../src/components/Router'
 import './css/style.css';
 
 
-render(<App />, document.querySelector('#main'));
+render(<Router />, document.querySelector('#main'));
 
